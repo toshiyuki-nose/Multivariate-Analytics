@@ -4,10 +4,5 @@ venv/
 __pycache__/
 *.pyc
 
-# R / RStudio
-.Rhistory
-.RData
-.Rproj.user/
-
-# renv
-renv/library/
+# .venv
+.venv/
