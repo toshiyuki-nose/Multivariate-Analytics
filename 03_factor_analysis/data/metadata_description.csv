@@ -1,0 +1,16 @@
+column_name,data_type,unit,description,analysis_note
+student_id,string,-,学生ID,分析対象から除外するID列
+sleep_hours,float,hours/day,1日あたりの平均睡眠時間,健康因子に関係
+exercise_minutes,int,minutes/day,1日あたりの平均運動時間,健康因子に関係
+screen_time_hours,float,hours/day,1日あたりのスクリーンタイム,生活習慣・メンタル負荷に関係
+study_hours,float,hours/day,1日あたりの平均学習時間,学習因子に関係
+attendance_rate,int,%,授業出席率,学習因子に関係
+caffeine_intake,int,mg/day,1日あたりのカフェイン摂取量,疲労・ストレスと関係
+social_media_hours,float,hours/day,1日あたりのSNS利用時間,デジタル習慣・メンタル負荷に関係
+stress_score,int,score,ストレススコア,メンタル負荷因子に関係
+anxiety_score,int,score,不安スコア,メンタル負荷因子に関係
+fatigue_score,int,score,疲労スコア,メンタル負荷因子に関係
+bmi,float,kg/m2,BMI,健康状態に関係
+resting_heart_rate,int,bpm,安静時心拍数,健康状態・疲労と関係
+assignment_completion_rate,int,%,課題提出率,学習因子に関係
+exam_score,int,score,試験スコア,学習成果に関係
