@@ -1,5 +1,17 @@
+# Core
 numpy
 pandas
+scipy
+
+# Visualization
 matplotlib
-statsmodels
+seaborn
+
+# Machine Learning
 scikit-learn
+statsmodels
+
+# Notebook
+jupyter
+notebook
+ipykernel

@@ -1,0 +1,9 @@
+﻿column_name,data_type,unit,description,analysis_note
+customer_id,string,-,Unique customer identifier,顧客を識別するID。クラスタリング対象から除外する。
+age,integer,years,Customer age,顧客属性を表す変数。
+annual_income,integer,USD/year,Estimated annual income,金額スケールが大きいため標準化が必要。
+purchase_frequency,float,purchases/month,Average number of purchases per month,購買活発度を表す中心的な変数。
+average_order_value,float,USD/order,Average amount spent per order,顧客単価を表す変数。
+online_purchase_ratio,float,%,Percentage of purchases made online,購買チャネルの傾向を表す変数。
+discount_usage_rate,float,%,Percentage of purchases using discounts,価格感応度を表す変数。
+days_since_last_purchase,integer,days,Days since the most recent purchase,値が大きいほど休眠傾向が強い。
