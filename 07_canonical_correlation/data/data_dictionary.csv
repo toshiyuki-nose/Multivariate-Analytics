@@ -1,0 +1,10 @@
+﻿column_name,data_type,unit,description,analysis_note,variable_set
+student_id,string,-,Unique student identifier,識別用ID。分析には使用しない。,ID
+study_hours_week,float,hours/week,Average weekly study hours,学習行動変数群X。,X
+attendance_rate,float,%,Class attendance rate,学習行動変数群X。,X
+assignment_completion_rate,float,%,Assignment completion rate,学習行動変数群X。,X
+practice_sessions_week,float,sessions/week,Average weekly practice sessions,学習行動変数群X。,X
+math_score,float,points,Mathematics score,学業成績変数群Y。,Y
+science_score,float,points,Science score,学業成績変数群Y。,Y
+writing_score,float,points,Writing score,学業成績変数群Y。,Y
+exam_score,float,points,Overall examination score,学業成績変数群Y。,Y

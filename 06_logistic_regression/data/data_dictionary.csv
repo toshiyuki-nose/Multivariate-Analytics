@@ -1,0 +1,11 @@
+﻿column_name,data_type,unit,description,analysis_note
+customer_id,string,-,Unique customer identifier,識別用ID。モデルには使用しない。
+tenure_months,integer,months,Months since subscription started,契約期間。
+monthly_charge,float,USD/month,Monthly service charge,月額料金。
+support_tickets,integer,tickets,Number of recent support tickets,問い合わせ・障害対応回数。
+login_frequency,float,logins/month,Average monthly login frequency,サービス利用頻度。
+days_since_last_login,float,days,Days since the latest login,最近の利用状況。
+satisfaction_score,integer,1-5,Customer satisfaction score,顧客満足度。5が最も高い。
+auto_payment,integer,0/1,Whether automatic payment is enabled,1=自動支払あり、0=なし。
+contract_type,string,-,Subscription contract type,Monthly / Annual / Two_Year。ダミー変数化する。
+churn,integer,0/1,Whether the customer churned,目的変数。1=解約、0=継続。
