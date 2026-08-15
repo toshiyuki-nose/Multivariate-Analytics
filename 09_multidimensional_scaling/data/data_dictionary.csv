@@ -1,0 +1,8 @@
+﻿column_name,data_type,unit,description,analysis_note
+city,string,-,City name,都市識別子。
+population_density,integer,people/km2,Population density,都市の人口密度。
+median_income,integer,thousand USD/year,Median household income,世帯所得水準。
+public_transit_score,integer,0-100,Public transportation convenience score,公共交通の利便性。
+green_space_ratio,integer,%,Percentage of urban area covered by green space,緑地の割合。
+housing_cost_index,integer,index,Relative housing cost index,住宅費水準。
+digital_infrastructure_score,integer,0-100,Digital infrastructure quality score,デジタルインフラ水準。
