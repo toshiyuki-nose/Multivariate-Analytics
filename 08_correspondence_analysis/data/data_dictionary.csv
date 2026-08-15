@@ -1,0 +1,7 @@
+﻿column_name,data_type,unit,description,analysis_note
+age_group,string,-,Customer age group,行カテゴリ。年代区分。
+Electronics,integer,customers,Number of customers preferring Electronics,商品カテゴリ別顧客数。
+Fashion,integer,customers,Number of customers preferring Fashion,商品カテゴリ別顧客数。
+Home_Living,integer,customers,Number of customers preferring Home & Living,商品カテゴリ別顧客数。
+Beauty,integer,customers,Number of customers preferring Beauty,商品カテゴリ別顧客数。
+Sports,integer,customers,Number of customers preferring Sports,商品カテゴリ別顧客数。
