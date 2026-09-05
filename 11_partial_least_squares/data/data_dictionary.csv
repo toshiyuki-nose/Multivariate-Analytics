@@ -1,0 +1,11 @@
+﻿column_name,data_type,unit,description,analysis_note
+batch_id,string,-,Unique manufacturing batch identifier,識別子。分析には使用しない。
+temperature,float,Celsius,Process temperature,説明変数。thermal factorの影響を受ける。
+pressure,float,bar,Process pressure,temperatureと相関しやすい説明変数。
+flow_rate,float,L/min,Material flow rate,process stabilityと関連する説明変数。
+mixing_speed,float,rpm,Mixing speed,flow_rateなどと相関しやすい。
+material_purity,float,%,Raw material purity,品質に関連する説明変数。
+viscosity,float,index,Material viscosity index,thermal/material factorの影響を受ける。
+humidity,float,%,Process environment humidity,process stabilityと逆方向に関連。
+cycle_time,float,minutes,Production cycle time,process stabilityと関連。
+quality_score,float,points,Final product quality score,目的変数。

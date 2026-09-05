@@ -1,0 +1,6 @@
+﻿column_name,data_type,unit,description,analysis_note
+student_id,string,-,Unique student identifier,識別用。分析変数には使用しない。
+teaching_method,category,-,Teaching method assigned to the student,MANOVAの独立変数（グループ変数）。
+math_score,integer,points,Mathematics assessment score,MANOVAの目的変数。
+reading_score,integer,points,Reading assessment score,MANOVAの目的変数。
+problem_solving_score,integer,points,Problem-solving assessment score,MANOVAの目的変数。
