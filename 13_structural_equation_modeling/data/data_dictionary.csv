@@ -1,0 +1,11 @@
+﻿column_name,data_type,unit,description,analysis_role,analysis_note_ja
+student_id,string,-,Unique student identifier,Identifier only,識別子。SEMには使用しない。
+study_hours_week,float,hours/week,Weekly study hours,Learning Engagement indicator,Learning Engagementの観測指標。
+attendance_rate,float,%,Class attendance rate,Learning Engagement indicator,Learning Engagementの観測指標。
+assignment_completion_rate,float,%,Assignment completion rate,Learning Engagement indicator,Learning Engagementの観測指標。
+confidence_math,float,0-100,Confidence in mathematics,Self-Efficacy indicator,Academic Self-Efficacyの観測指標。
+confidence_learning,float,0-100,Confidence in learning,Self-Efficacy indicator,Academic Self-Efficacyの観測指標。
+persistence_score,float,0-100,Persistence score,Self-Efficacy indicator,Academic Self-Efficacyの観測指標。
+math_score,float,points,Mathematics score,Academic Performance indicator,Academic Performanceの観測指標。
+reading_score,float,points,Reading score,Academic Performance indicator,Academic Performanceの観測指標。
+problem_solving_score,float,points,Problem-solving score,Academic Performance indicator,Academic Performanceの観測指標。

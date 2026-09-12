@@ -1,0 +1,7 @@
+﻿column_name,data_type,unit,description,analysis_note
+student_id,string,-,Unique student identifier,識別子。分析には使用しない。
+sleep_hours,float,hours/day,Average daily sleep duration,外生変数。
+attendance_rate,float,%,Class attendance rate,外生変数。
+study_hours_week,float,hours/week,Weekly study time,媒介変数。
+self_efficacy,float,0-100,Academic self-efficacy score,媒介変数。
+exam_score,float,points,Final examination score,最終結果変数。
