@@ -1,0 +1,12 @@
+﻿column_name,data_type,unit,description,analysis_note
+student_id,string,-,Unique student identifier,識別子。分析には使用しない。
+program,category,-,Academic program,General / STEM / Humanities。
+sleep_hours,float,hours/day,Average daily sleep duration,生活習慣。
+attendance_rate,float,%,Class attendance rate,学習参加。
+study_hours_week,float,hours/week,Weekly study time,学習行動。
+assignment_completion_rate,float,%,Assignment completion rate,学習参加。
+self_efficacy,float,0-100,Academic self-efficacy,自己効力感。
+stress_score,float,0-100,Perceived stress,高いほどストレスが高い。
+math_score,float,points,Mathematics score,学業成果。
+reading_score,float,points,Reading score,学業成果。
+problem_solving_score,float,points,Problem-solving score,学業成果。
